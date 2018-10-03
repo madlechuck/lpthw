@@ -1,0 +1,6 @@
+def my_first_function(arg1,arg2)
+	print (arg1 * arg2) / 2
+
+print my_first_function(8, 4)
+
+print my_first_function(4 + 4, 2 + 2)	

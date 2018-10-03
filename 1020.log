@@ -1,0 +1,157 @@
+[ 3- 4-2013 22:46:35:234]- LOG(C24): PRODUCTInst--
+[ 3- 4-2013 22:46:35:235]- LOG(C24): InitProperties - retrieve props from file 'C:\Users\Mathieu\AppData\Local\Temp\7zS45EE\properties.ini'
+[ 3- 4-2013 22:46:35:235]- LOG(C24): Installer version: 1.0.5.3
+[ 3- 4-2013 22:46:35:236]- LOG(C24):  --- Language IDs ---
+[ 3- 4-2013 22:46:35:237]- LOG(C24):   User Default UI Language =   1033,   0x409
+[ 3- 4-2013 22:46:35:237]- LOG(C24):   System Default UI Language = 1033,   0x409
+[ 3- 4-2013 22:46:35:238]- LOG(C24):   User Default Language ID =   1033,   0x409
+[ 3- 4-2013 22:46:35:239]- LOG(C24):   System Default Language ID = 1033,   0x409
+[ 3- 4-2013 22:46:35:239]- LOG(C24):   Language ID To Be Used =     1033,   0x409
+[ 3- 4-2013 22:46:35:240]- LOG(C24): Is64BitWindows()
+[ 3- 4-2013 22:46:35:241]- LOG(C24): Compiled as 64bit app so must be on 64 bit Windows.
+[ 3- 4-2013 22:46:35:242]- LOG(C24): OS is 64 bit
+[ 3- 4-2013 22:46:35:242]- LOG(C24): cmdline 'PRODUCTI'
+[ 3- 4-2013 22:46:35:243]- LOG(C24): -\/\/\/- Properties -\/\/\/-
+[ 3- 4-2013 22:46:35:244]- LOG(C24): PRINT_INFNAME = HPLJ1020.INF
+[ 3- 4-2013 22:46:35:245]- LOG(C24): PRINT_VERNAME = SUHP1020.VER
+[ 3- 4-2013 22:46:35:246]- LOG(C24): SHORT_PRINTER_NAME = HP LaserJet 1020 driver
+[ 3- 4-2013 22:46:35:246]- LOG(C24): PRINTER_SERIES_NAME = HP LaserJet 1020 Series
+[ 3- 4-2013 22:46:35:247]- LOG(C24): PRODUCT_VIDPID = vid_03f0&pid_2b17,vid_03f0&pid_2c17,vid_03f0&pid_2d17,vid_03f0&pid_3017,vid_03f0&pid_4117
+[ 3- 4-2013 22:46:35:248]- LOG(C24): REG_INSTALLKEY = HP LaserJet 1020 Series
+[ 3- 4-2013 22:46:35:249]- LOG(C24): ISRUNNING_MUTEX_NAME = HPLaserJet1020InstallExists
+[ 3- 4-2013 22:46:35:250]- LOG(C24): INSTALL_DIRECTORY = HP LaserJet 1020 driver
+[ 3- 4-2013 22:46:35:251]- LOG(C24): -/\/\/\- Properties -/\/\/\-
+[ 3- 4-2013 22:46:35:252]- LOG(C24): PRODUCT Installer ---------------------------------------------------
+[ 3- 4-2013 22:46:35:252]- LOG(C24): InstallSequencer()
+[ 3- 4-2013 22:46:35:253]- LOG(C24): InstallSequencer() step = 0
+[ 3- 4-2013 22:46:35:254]- LOG(C24): InstallSequencer() step = 1
+[ 3- 4-2013 22:46:35:255]- LOG(C24): --- InitializeStep ---
+[ 3- 4-2013 22:46:35:256]- LOG(C24): GetLandDir - English
+[ 3- 4-2013 22:46:35:257]- LOG(C24):   print inf:C:\Users\Mathieu\AppData\Local\Temp\7zS45EE\HPLJ1020.INF
+[ 3- 4-2013 22:46:35:258]- LOG(C24):   printer verion file: C:\Users\Mathieu\AppData\Local\Temp\7zS45EE\SUHP1020.VER
+[ 3- 4-2013 22:46:35:259]- LOG(C24):   printer series name: HP LaserJet 1020 Series
+[ 3- 4-2013 22:46:35:260]- LOG(C24): GetPrinternamesFromINF()
+[ 3- 4-2013 22:46:35:265]- LOG(C24): InstallSequencer() step = 3
+[ 3- 4-2013 22:46:35:265]- LOG(C24): --- LicenseStep --- 
+[ 3- 4-2013 22:46:35:266]- LOG(C24):  License file: 'C:\Users\Mathieu\AppData\Local\Temp\7zS45EE\\license.txt'
+[ 3- 4-2013 22:46:35:279]- LOG(C24): IDLCDialog::OnInitDialog() m_positionOnBottom=0, m_topmost=1, m_followPosition=0
+[ 3- 4-2013 22:46:35:281]- LOG(C24): IDLCGenericTextDlg::OnInitDialog 
+[ 3- 4-2013 22:46:35:283]- LOG(C24): Strings(): stringsDllPath: C:\Users\Mathieu\AppData\Local\Temp\7zS45EE\strings.dll
+[ 3- 4-2013 22:46:35:284]- LOG(C24): IDLCGenericTextDlg::OnInitDialog -- load text from file 'C:\Users\Mathieu\AppData\Local\Temp\7zS45EE\\license.txt'
+[ 3- 4-2013 22:46:35:285]- LOG(C24): Text is plain
+[ 3- 4-2013 22:46:38:215]- LOG(C24):  -[ IDLCGenericTextDlg BUTTON 1 pressed ]-
+[ 3- 4-2013 22:46:38:220]- LOG(C24): StartProgressDialog()  g_progressDlgRunning = 0
+[ 3- 4-2013 22:46:38:223]- LOG(C24): StartProgressDialog()  Starting progress dialog thread ...
+[ 3- 4-2013 22:46:38:226]- LOG(C24): Checking thread dialog handle 0
+[ 3- 4-2013 22:46:38:229]- LOG(17C): IDLCProgressDlg::OnInitDialog()
+[ 3- 4-2013 22:46:38:232]- LOG(17C): IDLCProgressDlg::DoDataExchange
+[ 3- 4-2013 22:46:38:233]- LOG(17C): IDLCDialog::OnInitDialog() m_positionOnBottom=0, m_topmost=1, m_followPosition=0
+[ 3- 4-2013 22:46:38:729]- LOG(C24): InstallSequencer() step = 5
+[ 3- 4-2013 22:46:38:732]- LOG(C24): --- MsiInstallStep --- 
+[ 3- 4-2013 22:46:38:735]- LOG(C24): Installing 1 Core MSIs --
+[ 3- 4-2013 22:46:38:738]- LOG(C24): ==================== INSTALL MSI ========================
+[ 3- 4-2013 22:46:38:741]- LOG(C24): CMsi::Install(C:\Users\Mathieu\AppData\Local\Temp\7zS45EE\\, )
+[ 3- 4-2013 22:46:38:745]- LOG(C24): CMsi::_Install(C:\Users\Mathieu\AppData\Local\Temp\7zS45EE\\,  REBOOT=ReallySuppress  ADDCLID=1033 )
+[ 3- 4-2013 22:46:38:756]- LOG(C24): ===>>> ERROR (gle=110, 0x6e):  Msg: The system cannot open the device or file specified.
+  Context: CMsi::GetPropertyFromMsi MsiOpenDatabase
+[ 3- 4-2013 22:46:38:759]- LOG(C24): CMsi::GetPropertyFromMsi failed. Setting  to UNKNOWN
+[ 3- 4-2013 22:46:38:762]- LOG(C24): ===>>> ERROR (gle=110, 0x6e):  Msg: The system cannot open the device or file specified.
+  Context: CMsi::GetPropertyFromMsi MsiOpenDatabase
+[ 3- 4-2013 22:46:38:765]- LOG(C24): CMsi::GetPropertyFromMsi failed. Setting  to UNKNOWN
+[ 3- 4-2013 22:46:38:769]- LOG(C24): ===>>> ERROR (gle=110, 0x6e):  Msg: The system cannot open the device or file specified.
+  Context: CMsi::GetPropertyFromMsi MsiOpenDatabase
+[ 3- 4-2013 22:46:38:772]- LOG(C24): CMsi::GetPropertyFromMsi failed. Setting  to UNKNOWN
+[ 3- 4-2013 22:46:38:773]- LOG(C24):   Msi ProductCode = UNKNOWN
+[ 3- 4-2013 22:46:38:774]- LOG(C24):   Msi UpgradeCode = UNKNOWN
+[ 3- 4-2013 22:46:38:775]- LOG(C24):   Msi ProductVersion = UNKNOWN
+[ 3- 4-2013 22:46:38:847]- LOG(C24):   --- FAILED install C:\Users\Mathieu\AppData\Local\Temp\7zS45EE\\
+[ 3- 4-2013 22:46:38:848]- LOG(C24): ===>>> ERROR (gle=3, 0x3):  Msg: The system cannot find the path specified.
+  Context: Failed Core msi Install 
+[ 3- 4-2013 22:46:38:849]- LOG(C24): InstallSequencer() step = 4
+[ 3- 4-2013 22:46:38:850]- LOG(C24): --- PreInstallStep ---
+[ 3- 4-2013 22:46:38:852]- LOG(C24): IsDriverInstalled(List)
+[ 3- 4-2013 22:46:38:853]- LOG(C24): IsDriverInstalled(HP LaserJet 1020)
+[ 3- 4-2013 22:46:38:854]- LOG(C24): FindInstalledDrivers()
+[ 3- 4-2013 22:46:38:856]- LOG(C24): PrinterDriver?  HP LaserJet 1020 ?= Microsoft XPS Document Writer
+[ 3- 4-2013 22:46:38:857]- LOG(C24): PrinterDriver?  HP LaserJet 1020 ?= Microsoft Shared Fax Driver
+[ 3- 4-2013 22:46:38:858]- LOG(C24): PrinterDriver?  HP LaserJet 1020 ?= HP LaserJet 1020
+[ 3- 4-2013 22:46:38:859]- LOG(C24): found driver
+[ 3- 4-2013 22:46:38:861]- LOG(C24):   Current printer verion file: C:\Windows\system32\spool\DRIVERS\x64\3\SUHP1020.VER
+[ 3- 4-2013 22:46:38:862]- LOG(C24):   Web bundle printer verion file: C:\Users\Mathieu\AppData\Local\Temp\7zS45EE\SUHP1020.VER
+[ 3- 4-2013 22:46:38:864]- LOG(C24): Web bundle 20120918 (2012.918.1.57980) is same or newer than current 20120918 (2012.918.1.57980)
+[ 3- 4-2013 22:46:38:865]- LOG(C24): FORCING A DRIVER UPDATE!
+[ 3- 4-2013 22:46:38:866]- LOG(C24): Driver currently installed, forcing repair driver C:\Users\Mathieu\AppData\Local\Temp\7zS45EE\HPLJ1020.INF
+[ 3- 4-2013 22:46:38:868]- LOG(C24): _PostProgressMessage hWnd=0x1304b8 msg=1125, param=13109
+[ 3- 4-2013 22:46:38:869]- LOG(C24): RepairDriver()
+[ 3- 4-2013 22:46:38:870]- LOG(C24): PreInstallDriverFiles()
+[ 3- 4-2013 22:46:38:871]- LOG(C24): _PreInstallDriverFiles()
+[ 3- 4-2013 22:46:38:872]- LOG(C24):   inf:C:\Users\Mathieu\AppData\Local\Temp\7zS45EE\HPLJ1020.INF
+[ 3- 4-2013 22:46:38:873]- LOG(17C): IDLCProgressDlg::OnCurrentProgressMsg()
+[ 3- 4-2013 22:46:38:875]- LOG(17C):    msg=Ajout des pilotes d?imprimante...
+[ 3- 4-2013 22:46:40:499]- LOG(C24):   DriverPackagePreinstall = 0, flags=0x15
+[ 3- 4-2013 22:46:40:503]- LOG(C24): InstallDriver(..., flags=0x11)
+[ 3- 4-2013 22:46:40:506]- LOG(C24):   inf:C:\Users\Mathieu\AppData\Local\Temp\7zS45EE\HPLJ1020.INF
+[ 3- 4-2013 22:46:40:509]- LOG(C24): StopAService(Spooler)
+[ 3- 4-2013 22:46:40:566]- LOG(C24): StartAService(Spooler)
+[ 3- 4-2013 22:46:43:754]- LOG(C24):   DriverPackageInstall = 0, flags=0x11
+[ 3- 4-2013 22:46:43:755]- LOG(C24): RepairDriver()
+[ 3- 4-2013 22:46:43:756]- LOG(C24): PreInstallDriverFiles()
+[ 3- 4-2013 22:46:43:757]- LOG(C24): _PreInstallDriverFiles()
+[ 3- 4-2013 22:46:43:759]- LOG(C24):   inf:
+[ 3- 4-2013 22:46:43:760]- LOG(C24):   DriverPackagePreinstall = 123, flags=0x15
+[ 3- 4-2013 22:46:43:761]- LOG(C24): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 3- 4-2013 22:46:44:762]- LOG(C24): _PreInstallDriverFiles()
+[ 3- 4-2013 22:46:44:763]- LOG(C24):   inf:
+[ 3- 4-2013 22:46:44:764]- LOG(C24):   DriverPackagePreinstall = 123, flags=0x15
+[ 3- 4-2013 22:46:44:765]- LOG(C24): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 3- 4-2013 22:46:44:767]- LOG(C24): Forced repair FAILED: 
+[ 3- 4-2013 22:46:44:768]- LOG(C24): RepairDriver()
+[ 3- 4-2013 22:46:44:769]- LOG(C24): PreInstallDriverFiles()
+[ 3- 4-2013 22:46:44:770]- LOG(C24): _PreInstallDriverFiles()
+[ 3- 4-2013 22:46:44:771]- LOG(C24):   inf:
+[ 3- 4-2013 22:46:44:772]- LOG(C24):   DriverPackagePreinstall = 123, flags=0x15
+[ 3- 4-2013 22:46:44:773]- LOG(C24): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 3- 4-2013 22:46:45:774]- LOG(C24): _PreInstallDriverFiles()
+[ 3- 4-2013 22:46:45:777]- LOG(C24):   inf:
+[ 3- 4-2013 22:46:45:780]- LOG(C24):   DriverPackagePreinstall = 123, flags=0x15
+[ 3- 4-2013 22:46:45:783]- LOG(C24): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 3- 4-2013 22:46:45:786]- LOG(C24): Forced repair FAILED: 
+[ 3- 4-2013 22:46:45:789]- LOG(C24): RepairDriver()
+[ 3- 4-2013 22:46:45:792]- LOG(C24): PreInstallDriverFiles()
+[ 3- 4-2013 22:46:45:794]- LOG(C24): _PreInstallDriverFiles()
+[ 3- 4-2013 22:46:45:795]- LOG(C24):   inf:
+[ 3- 4-2013 22:46:45:796]- LOG(C24):   DriverPackagePreinstall = 123, flags=0x15
+[ 3- 4-2013 22:46:45:797]- LOG(C24): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 3- 4-2013 22:46:46:798]- LOG(C24): _PreInstallDriverFiles()
+[ 3- 4-2013 22:46:46:801]- LOG(C24):   inf:
+[ 3- 4-2013 22:46:46:804]- LOG(C24):   DriverPackagePreinstall = 123, flags=0x15
+[ 3- 4-2013 22:46:46:807]- LOG(C24): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 3- 4-2013 22:46:46:810]- LOG(C24): Forced repair FAILED: 
+[ 3- 4-2013 22:46:46:813]- LOG(C24): RepairDriver()
+[ 3- 4-2013 22:46:46:814]- LOG(C24): PreInstallDriverFiles()
+[ 3- 4-2013 22:46:46:815]- LOG(C24): _PreInstallDriverFiles()
+[ 3- 4-2013 22:46:46:816]- LOG(C24):   inf:
+[ 3- 4-2013 22:46:46:818]- LOG(C24):   DriverPackagePreinstall = 123, flags=0x15
+[ 3- 4-2013 22:46:46:819]- LOG(C24): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 3- 4-2013 22:46:47:820]- LOG(C24): _PreInstallDriverFiles()
+[ 3- 4-2013 22:46:47:823]- LOG(C24):   inf:
+[ 3- 4-2013 22:46:47:826]- LOG(C24):   DriverPackagePreinstall = 123, flags=0x15
+[ 3- 4-2013 22:46:47:829]- LOG(C24): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 3- 4-2013 22:46:47:832]- LOG(C24): Forced repair FAILED: 
+[ 3- 4-2013 22:46:47:835]- LOG(C24): InstallSequencer() step = 7
+[ 3- 4-2013 22:46:47:838]- LOG(C24): TerminateProgressThrd(0x206d0f0)
+[ 3- 4-2013 22:46:47:841]- LOG(C24): _PostProgressMessage hWnd=0x1304b8 msg=1124, param=0
+[ 3- 4-2013 22:46:47:844]- LOG(17C): IDLCProgressDlg::OnTerminate()
+[ 3- 4-2013 22:46:48:344]- LOG(C24): --- FinishStep ---
+[ 3- 4-2013 22:46:48:352]- LOG(C24): IDLCDialog::OnInitDialog() m_positionOnBottom=0, m_topmost=1, m_followPosition=0
+[ 3- 4-2013 22:46:48:358]- LOG(C24): IDLCGenericTextDlg::OnInitDialog 
+[ 3- 4-2013 22:46:48:361]- LOG(C24): Text is plain
+[ 3- 4-2013 22:46:51:007]- LOG(C24):  -[ IDLCGenericTextDlg BUTTON 0 pressed ]-
